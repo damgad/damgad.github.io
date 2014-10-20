@@ -1,0 +1,58 @@
+# Dependencies
+markdown:	kramdown
+highlighter:	pygments
+
+# Permalinks
+permalink:	/blog/:title
+
+# Setup
+title:		Damian Gadomski
+tagline:	'blog'
+description:	'My personal blog.'
+url:		http://damgad.pl
+commentsystem:	google
+disqus:		camporez
+
+author:
+  name:		'Damian Gadomski'
+  url:		http://damgad.pl
+
+paginate:	5
+
+# Custom vars
+icon:		/assets/images/icon2.png
+cover:		/assets/images/cover.jpg
+
+social:
+  - icon:	twitter
+    url:	https://twitter.com/damgad
+    desc:	Follow me on twitter
+
+  - icon:	github
+    url:	https://github.com/damgad
+    desc:	Fork me on github
+
+  - icon:	stack-overflow
+    url:	http://stackoverflow.com/users/2826993/damgad
+    desc:	Stack overflow profile
+
+  - icon:	linkedin
+    url:	https://www.linkedin.com/profile/view?id=317039030
+    desc:	LinkedIn
+
+  - icon:	rss
+    url:	http://camporez.com/atom.xml
+    desc:	Subscribe to my feed
+    
+menu:
+  - title:	Home
+    url:	/
+    
+  - title:	About me
+    url:	/about
+    
+copyright:
+  author:	Camporez
+  url:		http://camporez.com
+  type_title:	Some rights reserved
+  type_url:	http://creativecommons.org/licenses/by-nc/2.5
